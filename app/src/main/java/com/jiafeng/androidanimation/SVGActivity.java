@@ -48,7 +48,6 @@ public class SVGActivity extends AppCompatActivity implements View.OnClickListen
     public void onClick(View v) {
         switch (v.getId()) {
             case R.id.button1:
-             //   mImage.setImageResource(R.drawable.arc_avd);
                 Drawable drawable1 = mImage.getDrawable();
                 if (drawable1 instanceof Animatable) {
                     ((Animatable) drawable1).start();
@@ -56,7 +55,6 @@ public class SVGActivity extends AppCompatActivity implements View.OnClickListen
                 break;
 
             case R.id.button2:
-//                mImage.setImageResource(R.drawable.animate_vector);
                 Drawable drawable2 = mImage.getDrawable();
                 if (drawable2 instanceof Animatable) {
                     ((Animatable) drawable2).start();
